@@ -19,7 +19,7 @@ looker.plugins.visualizations.add({
   updateAsync: function (data, element, config, queryResponse, details, done) {
     element.innerHTML = "";
     const div = document.createElement("div");
-    div.innerText = "Elizabeth!";
+    div.innerText = "Hello World!";
     element.appendChild(div);
     done();
 
